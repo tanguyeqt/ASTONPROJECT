@@ -1,0 +1,40 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^9.0.0",
+    "axios": "^0.18.0",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-app-auth": "^1.0.1",
+    "react-native-circle-checkbox": "^0.1.6",
+    "react-native-dropdown": "0.0.6",
+    "react-native-elements": "^1.0.0",
+    "react-native-ios-picker": "^1.0.0",
+    "react-native-js-stepper": "^0.2.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-paper": "^2.14.0",
+    "react-native-progress-steps": "^1.2.6",
+    "react-native-vector-icons": "^6.4.1",
+    "react-navigation": "^3.0.9",
+    "react-router": "^4.3.1",
+    "react-router-navigation": "^2.0.0-alpha.10"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true
+}
